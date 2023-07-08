@@ -11,10 +11,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,100;1,300;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
+<div>
         <header class="header">
             <div class="container header-container">
-                <section id="menu-section"></section>    
+                <div id="menu-section"></div>
                 <nav class="nav">
                     <ul class="nav-list">
                       <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -34,7 +34,7 @@
                         <img src="assets/ava1.jpg" alt="my photo" class="profile-image">
                         <div>
                             <h1 class="section-title main-title">Nadzeya Kaluzayeva</h1>
-                            <h3 class="section-subtitle">Front-end Developer</h3>
+                            <h2 class="section-subtitle">Front-end Developer</h2>
                         </div>  
                     </section>
                     <section class="section section-contacts" id="contacts">
@@ -71,8 +71,7 @@
                             <li class="section-item">CI/CD:<span> GitHub Actions</span></li>
                         </ul>
                     </section>
-                </section>
-                <section class="section section-projects" id="projects">
+                    <section class="section section-projects" id="projects">
                     <h2 class="section-title">Projects</h2>
                     <ul>
                         <li class="section-item">
@@ -80,9 +79,9 @@
                             <div class="button">
                             <a href="#" class="open_pop_up">Description</a>
                             </div>
-                            <div class="pop_up" id="pop_up">
+                            <div class="pop_up">
                               <div class="pop_up_container">
-                                <div class="pop_up_body" id="pop_up_body">
+                                <div class="pop_up_body">
                                     <h3>Project: Privacy governance platform for data protection compliance.</h3>
                                     <p>Designed and implemented automated testing solutions using Cypress and Mocha with Axios/Chai libraries for web applications, utilizing JavaScript for automation tests.
                                     <br>Maintained and updated automated test scripts using Cypress with JavaScript, ensuring their relevance and effectiveness over time.
@@ -95,7 +94,7 @@
                                     <br>Collaborated closely with the development team, product managers, and stakeholders to ensure all requirements were met and the product delivered high quality. Provided feedback on design and usability, ensuring a user-friendly application that met end-users' needs.
                                     <br>Implemented CI/CD pipelines, streamlining testing processes and enabling faster deployment.
                                     <br>Initialized new projects with GitHub and configured basic CI settings, contributing to an efficient and effective workflow.</p>
-                                  <div class="pop_up_close" id="pop_up_close">&#10006;</div>
+                                  <div class="pop_up_close">&#10006;</div>
                                 </div>
                               </div>
                             </div>
@@ -104,9 +103,9 @@
                             <div class="button">
                                 <a href="#" class="open_pop_up">Description</a>
                                 </div>
-                                <div class="pop_up" id="pop_up">
+                                <div class="pop_up">
                                   <div class="pop_up_container">
-                                    <div class="pop_up_body" id="pop_up_body">
+                                    <div class="pop_up_body">
                                         <h3>Project: Web app for Project Resource Planning.</h3>
                                         <p>Designed, developed, and maintained automated test scripts using Selenium, Python, and Postman API to validate the functionality, performance, and security of Teambook's software products.
                                         <br>Collaborated with the QA team and stakeholders to define comprehensive test plans and strategies encompassing different test types, environments, and platforms.
@@ -115,7 +114,7 @@
                                         <br>Integrated automated tests into the CI/CD pipeline to facilitate continuous testing and ensure software stability during frequent releases and deployments.
                                         <br>Collaborated with cross-functional teams, including developers, product owners, and designers, to understand requirements, provide feedback, and contribute to the overall quality assurance process.
                                         <br>Documented test processes, methodologies, and best practices to facilitate knowledge sharing and support the onboarding of new team members.</p>
-                                      <div class="pop_up_close" id="pop_up_close">&#10006;</div>
+                                      <div class="pop_up_close">&#10006;</div>
                                     </div>
                                   </div>
                                 </div>          
@@ -124,38 +123,38 @@
                             <div class="button">
                                 <a href="#" class="open_pop_up">Description</a>
                                 </div>
-                                <div class="pop_up" id="pop_up">
+                                <div class="pop_up">
                                   <div class="pop_up_container">
-                                    <div class="pop_up_body" id="pop_up_body">
+                                    <div class="pop_up_body">
                                       <p>
                                         <br>I worked as a QA Automation Engineer on the "Peshkariki" courier service project. Our platform aimed to assist small and medium-sized businesses in overcoming delivery challenges by handling all stages of cargo transportation. As part of the team, I was responsible for developing and maintaining automated testing solutions to ensure the reliability and quality of our service.
                                         <br>My tasks included designing and implementing test cases, conducting regression testing, and performing API testing using tools like Postman. I collaborated closely with cross-functional teams to identify and resolve issues, ensuring a smooth and efficient delivery process. 
                                         <br>By leveraging my expertise in QA automation, I contributed to the overall improvement of the platform's functionality, reliability, and user experience. It was rewarding to be part of a project that empowered businesses to focus on their core operations while providing reliable and efficient delivery services to customers.
                                       </p>
-                                      <div class="pop_up_close" id="pop_up_close">&#10006;</div>
+                                      <div class="pop_up_close">&#10006;</div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                     </ul>
-                </section>
-                <section class="section section-languages" id="languages">
+                    </section>
+                    <section class="section section-languages" id="languages">
                     <h2 class="section-title">Languages</h2>
                     <p class="section-item"><span>English: C2 (Fluent)</span></p>
                     <p class="section-item"><span>Russian: Native</span></p>
                     <p class="section-item"><span>Polish: Advanced</span></p>
-                </section>
+                    </section>
                     <section class="section section-code" id="code">
                         <h2 class="section-title">Code</h2>
                         <pre>
-                            <code>
+<code>
 function binarray(a) {
   let count = 0;
   let countMap = new Map();
   countMap.set(0, -1);
   let maxLength = 0;
   
-  for (let i = 0; i < a.length; i++) {
+  for (let i = 0; i &lt; a.length; i++) {
     if (a[i] === 1) {
       count++;
     } else {
@@ -171,6 +170,7 @@ function binarray(a) {
   return maxLength;
 }</code>
                     </pre>
+                    </section>
                 </div>
             </div>
         </main>
@@ -181,17 +181,16 @@ function binarray(a) {
                     <a href="https://github.com/Nadzey" class="github nav-link" target="_blank" >GitHub</a>
                 </div>
                 <div>
-                    <a href="https://rs.school/js/" class="rss" target="_blank"><img src="./assets/svg/rss.svg" alt="RSS Icon" /></a>
-                    
+                    <a href="https://rs.school/js/" class="rss" target="_blank"><img src="./assets/svg/rss.svg" alt="RSS Icon"></a>
                 </div>
             </div>
             <button class="toggle">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
             </button>
         </footer>
-    </div>
+</div>
     <script src="./index.js"></script>
 </body>
 </html>
