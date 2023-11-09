@@ -1,3 +1,3 @@
-https://Nadzey.github.io/rsschool-cv/cv
+https://Nadzey.github.io/rsschool-cv-0/cv
 
-https://Nadzey.github.io/rsschool-cv/
+https://Nadzey.github.io/rsschool-cv-0/
